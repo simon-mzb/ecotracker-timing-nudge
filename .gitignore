@@ -1,0 +1,21 @@
+# OS / editor
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+
+# R environment (restored from renv.lock)
+renv/library/
+renv/staging/
+
+# Never publish: identifiers, credentials, raw exports, private mappings
+codes.csv
+*credentials*
+*passcode*
+*mapping*
+*household_codes*
+.env
+.env.*
+data/private/
+data/raw/
