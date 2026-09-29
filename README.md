@@ -24,7 +24,7 @@ This repository accompanies the paper *When the Nudge Is Also the Meter: A Field
 | `results/` | Aggregate outputs of the original pipeline (CSV) and the figures (`results/figures/`) |
 | `analysis/` | The pipeline scripts as run on the raw export, with original IDs redacted (see `analysis/README.md`) |
 | `app/` | Source code of the EcoTracker web app (source snapshot) |
-| `materials/` | Consent text, intake questionnaire and all participant-facing app texts (EN/DE), app screenshots, statistical analysis plan v1.0 |
+| `materials/` | Consent text, intake questionnaire and the study's participant-facing app texts (EN/DE; login and navigation strings are in `app/messages/`), app screenshots, statistical analysis plan v1.0 |
 | `renv.lock` | R package versions (R 4.6.1) |
 
 ## Reproducing the results
@@ -72,16 +72,16 @@ Rscript reproduce/reproduce_paper.R --fast   # about 20 seconds, skips those boo
   - the raw database export,
   - login IDs and passcodes,
   - names and contact details,
-  - timestamps,
+  - exact timestamps,
   - household-level demographic answers.
 - **Published:** households carry random codes, and time is given only as study day, local hour, local calendar day and weekday.
 - Details are in `data/README.md`.
 
 ## Deviations and post hoc analyses
 
-- **Analysis plan:** it was written after data collection and after a crude phase-by-window count table had been seen, but before any model was fitted (`materials/statistical_analysis_plan_v1.0.md`).
-- **Excluded households:** 21 households are excluded because their stored records were overwritten by a data-processing script after collection. Their inclusion is reported as a sensitivity analysis.
-- **Post hoc analyses:** the registration-count decomposition, the registration patterns, the nominal test, the region comparison, the "waits as bad uses" check and the within-phase trend are all post hoc, and the paper labels them as such.
+- **Analysis plan:** it was written after data collection had begun and after a crude phase-by-window count table had been seen, but before any model was fitted (`materials/statistical_analysis_plan_v1.0.md`).
+- **Excluded households:** 21 households are excluded because their stored records were overwritten by a data-processing script after collection. The exclusion was decided after the results had been seen, on integrity evidence alone. Their inclusion is reported as a sensitivity analysis.
+- **Post hoc analyses:** the population-averaged category shares, the registration-count decomposition, the registration patterns, the nominal test, the region comparison, the "waits as bad uses" check and the within-phase trend are all post hoc, and the paper labels them as such.
 
 ## App
 
@@ -90,8 +90,8 @@ Rscript reproduce/reproduce_paper.R --fast   # about 20 seconds, skips those boo
 - The snapshot has no version history.
 
 Details:
-- **Configuration:** the database URL, session secret and researcher passcode are read from environment variables. No credentials are included.
-- **Test account:** the seed script creates one test account, which is the only account that sees the debug controls.
+- **Configuration:** the database URL, session secret and researcher passcode are read from environment variables. No credentials for participant accounts, the database or the researcher login are included.
+- **Test account:** the seed script creates one test account, which is the only account that sees the debug controls. The seed script sets a fixed passcode for this account; it holds no participant data.
 - **Participant-facing texts:** they are in `app/messages/`. A readable version is in `materials/`.
 - **Implementation of the design:** window schedule in `app/src/lib/schedule.ts`, phase logic in `app/src/lib/phase.ts`, green score in `app/src/lib/green-score.ts`.
 
