@@ -1,0 +1,146 @@
+{
+  "common": {
+    "appName": "EcoTracker",
+    "tagline": "Erfasse deine tägliche Gerätenutzung.",
+    "language": "Sprache",
+    "loading": "Wird geladen…",
+    "error": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+    "logout": "Abmelden"
+  },
+  "appliances": {
+    "dishwasher": "Geschirrspüler",
+    "washing_machine": "Waschmaschine",
+    "phone_charging": "Handy laden",
+    "generic": "flexible Geräte"
+  },
+  "login": {
+    "title": "Haushalts-Login",
+    "subtitle": "Gib die Haushalts-ID und den Zugangscode ein, den du für diese Studie erhalten hast.",
+    "householdId": "Haushalts-ID",
+    "householdIdPlaceholder": "z. B. 001",
+    "passcode": "Zugangscode",
+    "submit": "Anmelden",
+    "invalid": "Haushalts-ID oder Zugangscode ist falsch."
+  },
+  "onboarding": {
+    "screening": {
+      "title": "Welche dieser Geräte hast du?",
+      "subtitle": "Diese Studie richtet sich an Haushalte mit mindestens einem großen flexiblen Gerät.",
+      "continue": "Weiter",
+      "error": "Etwas ist schiefgelaufen. Bitte versuche es erneut."
+    },
+    "ineligible": {
+      "title": "Danke für deine Bereitschaft teilzunehmen",
+      "body": "Leider passt diese Studie nicht zu deinem Haushalt — sie richtet sich an Haushalte mit Geschirrspüler oder Waschmaschine. Wir schätzen es sehr, dass du dir die Zeit genommen hast, eine Teilnahme in Betracht zu ziehen."
+    },
+    "consent": {
+      "title": "Bevor es losgeht — was wir erfassen",
+      "intro": "Diese App ist Teil einer Universitätsstudie zum Energieverbrauch von Haushalten. Das erfassen wir genau:",
+      "point1": "In den nächsten 2 Wochen speichern wir jedes Mal, wenn du bei einem Gerät auf \"Jetzt starten\" tippst, welches Gerät und den Zeitpunkt.",
+      "point2": "Im Laufe der Studie zeigen wir dir eventuell zusätzliche Informationen oder Fragen in der App — wir erklären dir immer vorher, was neu ist.",
+      "point4": "Deine Daten werden ausschließlich anonymisiert für die akademische Auswertung genutzt.",
+      "agree": "Ich habe verstanden und stimme der Teilnahme zu"
+    },
+    "intake": {
+      "title": "Ein paar kurze Fragen",
+      "subtitle": "Das hilft uns, deinen Haushalt besser zu verstehen. Dauert nur eine Minute.",
+      "householdSize": "Wie viele Personen leben in deinem Haushalt?",
+      "dwellingType": "In welcher Art von Wohnung lebst du?",
+      "dwellingHouse": "Haus",
+      "dwellingApartment": "Wohnung",
+      "dwellingOther": "Andere",
+      "ageBracket": "Deine Altersgruppe (optional)",
+      "ageBracketSkip": "Keine Angabe",
+      "submit": "Einrichtung abschließen"
+    }
+  },
+  "phase2Intro": {
+    "title": "Neu in der App: Öko-Zeitpunkt-Tipps",
+    "body1": "Ab jetzt zeigen wir dir Informationen dazu, wann es — ökologisch betrachtet — ein guter Zeitpunkt ist, Geräte wie deine Waschmaschine oder deinen Geschirrspüler zu nutzen, basierend auf der Tageszeit.",
+    "body2": "Du entscheidest weiterhin völlig frei, wann du deine Geräte nutzt. Das sind nur zusätzliche Informationen — nichts ist verpflichtend oder eingeschränkt.",
+    "continue": "Verstanden, weiter"
+  },
+  "home": {
+    "day": "Tag {day} deiner Studie",
+    "phase1Title": "Erfasse deine Gerätenutzung",
+    "phase2Title": "Deine Geräte",
+    "startNow": "Jetzt starten",
+    "logged": "Erfasst!",
+    "tapToConfirm": "Nochmal tippen zum Bestätigen",
+    "useNow": "{appliance} nutzen",
+    "confirmTitle": "Gerade nicht der beste Zeitpunkt",
+    "confirmBodyWithHours": "Etwa {hours}h zu warten könnte mehr Ökostrom für {appliance} bedeuten. Trotzdem jetzt nutzen oder warten?",
+    "confirmBodyGeneric": "Etwas zu warten könnte mehr Ökostrom für {appliance} bedeuten. Trotzdem jetzt nutzen oder warten?",
+    "useAnyway": "Trotzdem nutzen",
+    "wait": "Ich warte",
+    "praiseAfterAccept": "🎉 Guter Zeitpunkt — das ist eine ökostromfreundliche Wahl für {appliance}.",
+    "ackAfterAcceptOk": "Notiert für {appliance} — ein akzeptabler Zeitpunkt, nicht die Tagesspitze, aber in Ordnung.",
+    "ackAfterAcceptBad": "Notiert für {appliance} — versuch es beim nächsten Mal vielleicht zu einem grüneren Zeitpunkt.",
+    "ackAfterDeclineWithHours": "Wir haben notiert, dass du auf einen besseren Zeitpunkt wartest. Bitte erfasse dieses Gerät erneut, wenn du es in {hours} Stunden nutzt.",
+    "ackAfterDeclineGeneric": "Wir haben notiert, dass du auf einen besseren Zeitpunkt wartest. Bitte erfasse dieses Gerät erneut, sobald du es tatsächlich nutzt."
+  },
+  "greenScore": {
+    "title": "Öko-Punktestand"
+  },
+  "info": {
+    "learnMoreLink": "ℹ️ Warum der Zeitpunkt zählt",
+    "title": "Warum der Zeitpunkt zählt",
+    "body1": "Solarstromerzeugung folgt der Sonne: Sie steigt morgens an, erreicht mittags ihren Höhepunkt und lässt zum Abend hin nach. Wind und andere erneuerbare Quellen schwanken ebenfalls, aber dieser mittägliche Solar-Höhepunkt ist der Hauptgrund, warum Tagesstunden im Schnitt mehr Ökostrom liefern als Nächte oder frühe Morgenstunden.",
+    "statTitle": "Echte deutsche Netzdaten (aus der Motivation dieser Studie)",
+    "statEvening": "Waschmaschine, 18-19 Uhr",
+    "statNoon": "Waschmaschine, 12-13 Uhr",
+    "statSource": "Quelle: smard.de — tatsächlicher Ökostrom-Anteil für denselben Waschzyklus, nur zu einer anderen Uhrzeit gestartet.",
+    "body2": "Die \"super\"- und \"okay\"-Zeitfenster dieser App sind ein einfacher täglicher Zeitplan, der auf demselben Mittagshoch basiert. Möchtest du selbst echte, aktuelle Erzeugungs- und Verbrauchsdaten für Deutschland sehen? SMARD — die öffentliche Marktdatenplattform der Bundesnetzagentur — veröffentlicht sie offen.",
+    "linkText": "SMARD.de öffnen →",
+    "back": "← Zurück"
+  },
+  "nudge": {
+    "great": "☀️ Gerade läuft das heutige super Zeitfenster (10:00-17:00 Uhr), wenn die Solarerzeugung normalerweise am höchsten ist. {appliance} jetzt zu nutzen ist eine super Zeit für Ökostrom.",
+    "ok": "🙂 Gerade läuft ein \"okay\"-Zeitfenster — nicht die heutige Tagesspitze (10:00-17:00 Uhr), aber trotzdem ein akzeptabler Zeitpunkt für {appliance}.",
+    "bad": "🔌 Gerade liegst du außerhalb der heutigen Tageszeitfenster, wenn das Netz normalerweise stärker auf nicht erneuerbare Quellen setzt. Etwa {hours}h bis zum nächsten super Zeitfenster zu warten könnte sauberere Elektrizität für {appliance} bedeuten."
+  },
+  "help": {
+    "buttonLabel": "Hilfe",
+    "title": "Was soll ich tun?",
+    "phase1Body": "Tippe einfach auf \"Jetzt starten\" bei einem Gerät, wann immer du es nutzt — Geschirrspüler, Waschmaschine oder Handy laden. Das ist alles in dieser Phase.",
+    "phase2Body": "Wir schlagen jetzt gute Zeitpunkte für deine Geräte vor, basierend auf der Tageszeit (tagsüber ist normalerweise mehr Solarstrom verfügbar). Du kannst deine Geräte weiterhin völlig frei nutzen, wann immer es dir passt — das sind nur Informationen, nichts ist verpflichtend.",
+    "close": "Verstanden"
+  },
+  "backdated": {
+    "buttonLabel": "Vergessenen Eintrag erfassen",
+    "title": "Wann hast du das genutzt?",
+    "timeLabel": "Zeitpunkt",
+    "submitIdle": "Erfassen",
+    "submitConfirm": "Nochmal tippen zum Bestätigen",
+    "cancel": "Abbrechen",
+    "loggedConfirmation": "Erfasst!",
+    "retrospectiveGreat": "Das war während eines super Zeitfensters! 🎉",
+    "retrospectiveOk": "Das war ein akzeptabler Zeitpunkt.",
+    "retrospectiveBad": "Das lag außerhalb des empfohlenen Zeitfensters.",
+    "errorFuture": "Dieser Zeitpunkt liegt noch in der Zukunft.",
+    "errorTooOld": "Bitte wähle einen Zeitpunkt innerhalb der letzten 24 Stunden.",
+    "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuche es erneut."
+  },
+  "admin": {
+    "login": {
+      "title": "Forscher-Login",
+      "passcode": "Admin-Zugangscode",
+      "submit": "Anmelden",
+      "invalid": "Falscher Zugangscode."
+    },
+    "title": "Studien-Administration",
+    "households": "Haushalte",
+    "id": "ID",
+    "phase": "Stufe",
+    "consented": "Zugestimmt",
+    "firstLogin": "Erster Login",
+    "phaseOverride": "Stufe überschreiben",
+    "none": "Keine",
+    "save": "Speichern",
+    "saved": "Gespeichert",
+    "exportUsageLogs": "Nutzungsprotokolle exportieren (CSV)",
+    "exportNudgeResponses": "Hinweis-Antworten exportieren (CSV)",
+    "exportProfiles": "Haushaltsprofile exportieren (CSV)",
+    "logout": "Abmelden"
+  }
+}

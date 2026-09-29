@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4FBF4" />
+      <stop offset="100%" stop-color="#E2F0E2" />
+    </linearGradient>
+
+    <!-- Vibrant Green Window Gradient -->
+    <linearGradient id="windowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ADE80" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#16A34A" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Warm Sun Gradient -->
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+
+    <!-- Subtle Drop Shadow -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- App Icon Base -->
+  <rect width="64" height="64" rx="16" fill="url(#bgGrad)" filter="url(#shadow)" />
+
+  <!-- Outer Clock Ring & Face -->
+  <circle cx="32" cy="32" r="22" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" filter="url(#shadow)" />
+
+  <!-- The "Green Window" segment (12 o'clock to 4 o'clock) -->
+  <path d="M32 32 L32 10 A 22 22 0 0 1 51.05 43 Z" fill="url(#windowGrad)" />
+
+  <!-- Clock Tick Marks (Subtle guides) -->
+  <line x1="32" y1="12" x2="32" y2="15" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="52" y1="32" x2="49" y2="32" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="32" y1="52" x2="32" y2="49" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="12" y1="32" x2="15" y2="32" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" />
+
+  <!-- Weather Indicator (Sun inside the window) -->
+  <circle cx="42" cy="22" r="4.5" fill="url(#sunGrad)" />
+
+  <!-- Sun Rays -->
+  <g stroke="#F59E0B" stroke-width="1.5" stroke-linecap="round">
+    <line x1="42" y1="14.5" x2="42" y2="16" />
+    <line x1="42" y1="28" x2="42" y2="29.5" />
+    <line x1="34.5" y1="22" x2="36" y2="22" />
+    <line x1="48" y1="22" x2="49.5" y2="22" />
+    <line x1="36.7" y1="16.7" x2="37.8" y2="17.8" />
+    <line x1="46.2" y1="26.2" x2="47.3" y2="27.3" />
+    <line x1="47.3" y1="16.7" x2="46.2" y2="17.8" />
+    <line x1="37.8" y1="26.2" x2="36.7" y2="27.3" />
+  </g>
+
+  <!-- Clock Hands -->
+  <!-- Minute hand (Pointing directly into the green window) -->
+  <line x1="32" y1="32" x2="39" y2="19" stroke="#1E293B" stroke-width="3" stroke-linecap="round" />
+  <!-- Hour hand (Pointing to another time) -->
+  <line x1="32" y1="32" x2="24" y2="36" stroke="#64748B" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Center Pivot Pin -->
+  <circle cx="32" cy="32" r="3.5" fill="#1E293B" />
+  <circle cx="32" cy="32" r="1.5" fill="#FFFFFF" />
+</svg>

@@ -1,0 +1,146 @@
+{
+  "common": {
+    "appName": "EcoTracker",
+    "tagline": "Log your daily appliance usage.",
+    "language": "Language",
+    "loading": "Loading…",
+    "error": "Something went wrong. Please try again.",
+    "logout": "Log out"
+  },
+  "appliances": {
+    "dishwasher": "Dishwasher",
+    "washing_machine": "Washing Machine",
+    "phone_charging": "Phone Charging",
+    "generic": "flexible appliances"
+  },
+  "login": {
+    "title": "Household login",
+    "subtitle": "Enter the household ID and passcode you were given for this study.",
+    "householdId": "Household ID",
+    "householdIdPlaceholder": "e.g. 001",
+    "passcode": "Passcode",
+    "submit": "Log in",
+    "invalid": "Household ID or passcode is incorrect."
+  },
+  "onboarding": {
+    "screening": {
+      "title": "Which of these do you have?",
+      "subtitle": "This study focuses on households with at least one major flexible appliance.",
+      "continue": "Continue",
+      "error": "Something went wrong. Please try again."
+    },
+    "ineligible": {
+      "title": "Thanks for your willingness to participate",
+      "body": "Unfortunately, this study isn't a fit for your household — it focuses on households with a dishwasher or washing machine. We really appreciate you taking the time to consider joining."
+    },
+    "consent": {
+      "title": "Before you start — what we track",
+      "intro": "This app is part of a university study on household energy use. Here's exactly what we record:",
+      "point1": "Over the next 2 weeks, every time you tap \"Start Now\" on an appliance, we log which appliance and the timestamp.",
+      "point2": "We may show you additional information or questions in the app as the study progresses — we'll always explain what's new before it appears.",
+      "point4": "Your data is used only for anonymized academic analysis.",
+      "agree": "I understand and agree to participate"
+    },
+    "intake": {
+      "title": "A few quick questions",
+      "subtitle": "This helps us understand your household. It only takes a minute.",
+      "householdSize": "How many people live in your household?",
+      "dwellingType": "What type of home do you live in?",
+      "dwellingHouse": "House",
+      "dwellingApartment": "Apartment",
+      "dwellingOther": "Other",
+      "ageBracket": "Your age bracket (optional)",
+      "ageBracketSkip": "Prefer not to say",
+      "submit": "Finish setup"
+    }
+  },
+  "phase2Intro": {
+    "title": "New in the app: eco-friendly timing tips",
+    "body1": "From now on, we'll show you information about when it's a good time — ecologically speaking — to use appliances like your washing machine or dishwasher, based on time of day.",
+    "body2": "You're always completely free to decide when to use your appliances. This is just extra information — nothing is required, tracked as a rule, or restricted.",
+    "continue": "Got it, continue"
+  },
+  "home": {
+    "day": "Day {day} of your study",
+    "phase1Title": "Log your appliance usage",
+    "phase2Title": "Your appliances",
+    "startNow": "Start Now",
+    "logged": "Logged!",
+    "tapToConfirm": "Tap again to confirm",
+    "useNow": "Use {appliance}",
+    "confirmTitle": "Not the best time right now",
+    "confirmBodyWithHours": "Waiting about {hours}h could mean more green energy for your {appliance}. Use it now anyway, or wait?",
+    "confirmBodyGeneric": "Waiting a bit could mean more green energy for your {appliance}. Use it now anyway, or wait?",
+    "useAnyway": "Use anyway",
+    "wait": "I'll wait",
+    "praiseAfterAccept": "🎉 Nice timing — that's a green-energy-friendly choice for your {appliance}.",
+    "ackAfterAcceptOk": "Noted for your {appliance} — a decent time, not the daily peak but reasonable.",
+    "ackAfterAcceptBad": "Noted for your {appliance} — maybe try for a greener window next time.",
+    "ackAfterDeclineWithHours": "We've noted that you would wait for a better time. Please register this device again when you use it in {hours} hours.",
+    "ackAfterDeclineGeneric": "We've noted that you would wait for a better time. Please register this device again once you actually use it."
+  },
+  "greenScore": {
+    "title": "Green Score"
+  },
+  "info": {
+    "learnMoreLink": "ℹ️ Why timing matters",
+    "title": "Why timing matters",
+    "body1": "Solar power generation follows the sun: it ramps up in the morning, peaks around midday, and tapers off by evening. Wind and other renewables shift too, but that midday solar peak is the single biggest reason daytime hours carry more green energy on average than nights or early mornings.",
+    "statTitle": "Real German grid data (from this study's motivation)",
+    "statEvening": "Washing machine, 6-7 PM",
+    "statNoon": "Washing machine, 12-1 PM",
+    "statSource": "Source: smard.de — actual renewable share for the same appliance cycle, just run at a different hour.",
+    "body2": "This app's \"great\" and \"ok\" windows are a simple daily schedule built on that same midday-peak pattern. Want to see live, real generation and consumption data for Germany yourself? SMARD — the German Federal Network Agency's public market data platform — publishes it openly.",
+    "linkText": "Open SMARD.de →",
+    "back": "← Back"
+  },
+  "nudge": {
+    "great": "☀️ It's currently in today's great window (10:00-17:00), when solar generation is typically highest. Using {appliance} now is a great time for green energy.",
+    "ok": "🙂 It's currently in an \"ok\" window — not today's daily peak (10:00-17:00), but still a reasonable time to use {appliance}.",
+    "bad": "🔌 It's currently outside today's daytime windows, when the grid typically relies more on non-renewable sources. Waiting about {hours}h, until the next great window, could mean cleaner electricity for {appliance}."
+  },
+  "help": {
+    "buttonLabel": "Help",
+    "title": "What am I supposed to do?",
+    "phase1Body": "Just tap \"Start Now\" on an appliance whenever you use it — dishwasher, washing machine, or phone charging. That's it for this stage.",
+    "phase2Body": "We now suggest good times to use your appliances based on time of day (more solar power is typically available during the day). You're always completely free to use your devices whenever works for you — this is just information, nothing is required.",
+    "close": "Got it"
+  },
+  "backdated": {
+    "buttonLabel": "Log a forgotten entry",
+    "title": "When did you use this?",
+    "timeLabel": "Time",
+    "submitIdle": "Log it",
+    "submitConfirm": "Tap again to confirm",
+    "cancel": "Cancel",
+    "loggedConfirmation": "Logged!",
+    "retrospectiveGreat": "That was during a great window! 🎉",
+    "retrospectiveOk": "That was an okay time.",
+    "retrospectiveBad": "That was outside the recommended window.",
+    "errorFuture": "That time hasn't happened yet.",
+    "errorTooOld": "Please pick a time within the last 24 hours.",
+    "errorGeneric": "Something went wrong. Please try again."
+  },
+  "admin": {
+    "login": {
+      "title": "Researcher login",
+      "passcode": "Admin passcode",
+      "submit": "Log in",
+      "invalid": "Incorrect passcode."
+    },
+    "title": "Study admin",
+    "households": "Households",
+    "id": "ID",
+    "phase": "Phase",
+    "consented": "Consented",
+    "firstLogin": "First login",
+    "phaseOverride": "Phase override",
+    "none": "None",
+    "save": "Save",
+    "saved": "Saved",
+    "exportUsageLogs": "Export usage logs (CSV)",
+    "exportNudgeResponses": "Export nudge responses (CSV)",
+    "exportProfiles": "Export household profiles (CSV)",
+    "logout": "Log out"
+  }
+}
