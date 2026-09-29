@@ -1,0 +1,6 @@
+appliance,response,decisions
+dishwasher,accept,5
+phone_charging,accept,80
+phone_charging,decline,8
+washing_machine,accept,12
+washing_machine,decline,1

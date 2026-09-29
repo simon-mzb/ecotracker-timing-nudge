@@ -1,0 +1,24 @@
+severity,scope,rule_code,reason,flagged_rows
+exclude,household,H_EXPLICITLY_INELIGIBLE,Account marked ineligible.,4
+exclude,household,H_MISSING_FIRST_LOGIN,No first-login timestamp.,408
+exclude,household,H_NO_CONSENT,No recorded consent.,413
+exclude,household,H_TEST_ACCOUNT,Test account.,1
+exclude,nudge_decision,D_EARLY_NUDGE_RESPONSE,Nudge response occurs before the strict 168-hour boundary.,16
+exclude,nudge_decision,D_INELIGIBLE_HOUSEHOLD,Decision belongs to an ineligible household.,9
+exclude,nudge_decision,D_RESPONSE_AT_OR_AFTER_336H,Nudge response occurs at or after 336 hours.,155
+exclude,primary_population,H_ADMIN_INCOMPLETE,Fewer than 336 hours elapsed by the recovered snapshot cutoff.,3
+exclude,registered_use,E_EARLY_NUDGE_ACCEPT,Nudge accept occurs before the strict 168-hour boundary.,13
+exclude,registered_use,E_EVENT_AT_OR_AFTER_336H,Event time is at or after 336 hours.,182
+exclude,registered_use,E_EVENT_BEFORE_LOGIN,Event time is before first login.,10
+exclude,registered_use,E_IMMEDIATE_USAGE_IN_NUDGE_PHASE,Immediate usage-log row occurs in the strict nudge phase.,5
+exclude,registered_use,E_INELIGIBLE_HOUSEHOLD,Source row belongs to an ineligible household.,9
+exclude,registered_use,E_REGISTRATION_AT_OR_AFTER_336H,Registration time is at or after 336 hours.,184
+exclude,registered_use,E_REGISTRATION_BEFORE_LOGIN,Registration time is before first login.,5
+review,nudge_decision,R_NONBAD_DECLINE,"Decline is stored in an ok or great window, which the current interface does not expose.",6
+review,nudge_decision,R_REPEATED_DECISION_2_MINUTES,Same household/appliance/window/response repeats within two minutes.,2
+review,nudge_decision,R_REPEATED_DECISION_5_SECONDS,Same household/appliance/window/response repeats within five seconds.,17
+review,nudge_decision,R_STRICT_NUDGE_BEFORE_INTRO,Strict nudge-phase decision precedes the recorded Phase-2 introduction.,2
+review,registered_use,R_BACKDATED_CROSSES_168H,Event and registration timestamps fall on opposite sides of 168 hours.,4
+review,registered_use,R_IMMEDIATE_BACKDATED_PAIR_2H,Immediate and backdated rows for the same household/appliance are within two hours.,40
+review,registered_use,R_NEAR_REPEAT_2_MINUTES,"Same household, appliance, and source type repeated within two minutes.",14
+review,registered_use,R_NEAR_REPEAT_5_SECONDS,"Same household, appliance, and source type repeated within five seconds.",27

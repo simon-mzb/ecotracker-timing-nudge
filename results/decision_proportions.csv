@@ -1,0 +1,7 @@
+analysis,households,decisions,waits,proportion,lower,upper,method,replicates,seed
+Main: all eligible recorded bad-window decisions,35,106,9,0.08490566037735849,0.03174185463659148,0.15463917525773196,Household bootstrap percentile 95%,10000,24092407
+Primary-population decisions,33,104,9,0.08653846153846154,0.031241945876288667,0.15789473684210525,Household bootstrap percentile 95%,10000,24092407
+Equal-household mean wait proportion,35,106,9,0.08619047619047619,0.02666666666666666,0.16285714285714287,Household bootstrap percentile 95%,10000,24092407
+Observed-exposure decisions,35,106,9,0.08490566037735849,0.030765306122448984,0.15463917525773196,Household bootstrap percentile 95%,10000,24092407
+Retain duplicate-flagged decisions,35,112,10,0.08928571428571429,0.030303030303030304,0.16239837398373977,Household bootstrap percentile 95%,10000,24092407
+Including households with rewritten records (DEC-030),51,139,20,0.14388489208633093,0.07801418439716312,0.22060631629701036,Household bootstrap percentile 95%,10000,24092407

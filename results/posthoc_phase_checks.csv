@@ -1,0 +1,4 @@
+check,n_events,n_households,beta,se,OR,lower,upper,interval,role
+Mundlak: within-household phase,802,42,0.6325165453527481,0.14932501605350726,1.8823416218867164,1.4047221340788445,2.522356482843204,Wald 95%,Post hoc (DEC-029); does not replace primary
+Including households with rewritten records (DEC-030),1001,63,0.5733934559982293,0.13243383687166446,1.7742777806704184,1.368647650271929,2.300125706097749,Wald 95%,Post hoc (DEC-029); does not replace primary
+Stated waits counted as bad-window uses,811,42,0.5355046948294814,0.14761286175925056,1.7083102000482089,1.2791342549589513,2.281483533315589,Wald 95%,Post hoc (DEC-029); does not replace primary

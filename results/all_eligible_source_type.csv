@@ -1,0 +1,5 @@
+phase,source_type,events,proportion
+baseline,backdated_usage,112,0.20934579439252338
+baseline,immediate_usage,423,0.7906542056074767
+nudge,backdated_usage,99,0.28530259365994237
+nudge,nudge_accept,248,0.7146974063400576

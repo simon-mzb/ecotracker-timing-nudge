@@ -1,0 +1,2 @@
+candidate_rows,record_integrity_excluded,fail_base_time_or_eligibility,base_valid_but_source_incompatible,strict_valid_before_duplicates,strict_valid_duplicates,all_eligible_clean,clean_outside_primary,primary_events
+1328,215,196,0,917,35,882,80,802

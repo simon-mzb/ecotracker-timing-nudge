@@ -1,0 +1,4 @@
+model,estimand,beta,se,OR,lower,upper
+Naive CLM (households ignored),Population-averaged; events treated as independent,0.44563952044771243,0.13753599978351536,1.5614884803990292,1.192520293054472,2.044616170156439
+Primary CLMM (household random intercept),Household-conditional,0.5897458869152452,0.14867154627269027,1.8035300565767118,1.347632913740317,2.4136548104541045
+"Primary CLMM, household-bootstrap SD (399, from 08)",Household-conditional,0.5897458869152452,0.17453523967493162,,,

@@ -1,0 +1,7 @@
+full_14_day_opportunity,pattern,households
+FALSE,Baseline only,1
+FALSE,Both phases,2
+TRUE,Baseline only,12
+TRUE,Both phases,42
+TRUE,No valid events,8
+TRUE,Nudge only,1

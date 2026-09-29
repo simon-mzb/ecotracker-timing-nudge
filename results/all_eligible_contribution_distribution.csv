@@ -1,0 +1,3 @@
+phase,households,no_registrations,median_events,q1_events,q3_events,min_events,max_events,median_active_days,q1_active_days,q3_active_days
+baseline,66,9,8,3,11,0,23,5,2,6
+nudge,66,21,4,0,9,0,16,3,0,5

@@ -1,0 +1,2 @@
+source_decisions,eligible_rows,strict_eligible_before_duplicates,duplicate_rows,strict_clean,bad_decisions,early_eligible,nonbad_declines_eligible
+521,430,275,17,258,106,0,3

@@ -1,0 +1,7 @@
+phase,appliance,events,proportion
+baseline,dishwasher,62,0.11588785046728972
+baseline,washing_machine,128,0.23925233644859814
+baseline,phone_charging,345,0.6448598130841121
+nudge,dishwasher,36,0.1037463976945245
+nudge,washing_machine,80,0.23054755043227665
+nudge,phone_charging,231,0.6657060518731989

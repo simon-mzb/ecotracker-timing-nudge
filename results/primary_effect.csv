@@ -1,0 +1,2 @@
+analysis,family,n_events,n_households,beta,se,OR,lower,upper,interval,warnings,LRT,df,p,wald_lower,wald_upper,random_intercept_variance,profile_error
+Primary,Ordinal CLMM,802,42,0.5897458869152452,0.14867154627269027,1.8035300565767118,1.349403700524464,2.4176649643798056,Profile likelihood 95%,,15.985335251565402,1,6.383504654973533e-5,1.347632913740317,2.4136548104541045,0.7700180482486735,

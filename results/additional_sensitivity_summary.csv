@@ -1,0 +1,4 @@
+Question,Changed_rule,Estimate,Uncertainty,Direction,Judgement
+Do equally weighted households change the bad share?,Each of the same 42 households has equal descriptive weight,-14.7 percentage points,Household-bootstrap 95% interval: -23.0 to -6.5 points,"Favourable timing, consistent with primary",Event-count weighting does not create the descriptive direction
+Do equally weighted households change the great share?,Each of the same 42 households has equal descriptive weight,+12.7 percentage points,Household-bootstrap 95% interval: +4.5 to +21.5 points,"Favourable timing, consistent with primary",Event-count weighting does not create the descriptive direction
+Does any single household dominate?,Remove each of 42 households in turn,OR range 1.72 to 1.97,Range is not a confidence interval; individual Wald intervals in anonymous influence output,No direction reversal,No single household drives the association
