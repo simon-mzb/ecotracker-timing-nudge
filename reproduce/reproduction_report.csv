@@ -1,0 +1,143 @@
+section,quantity,reproduced,expected,abs_diff,tolerance,kind,match
+Table 1,events baseline bad,236,236,0,0,deterministic,TRUE
+Table 1,events nudge bad,135,135,0,0,deterministic,TRUE
+Table 1,events baseline ok,85,85,0,0,deterministic,TRUE
+Table 1,events nudge ok,64,64,0,0,deterministic,TRUE
+Table 1,events baseline great,147,147,0,0,deterministic,TRUE
+Table 1,events nudge great,135,135,0,0,deterministic,TRUE
+Results,phone-charging share (%),66.08478802992519,66.1,0.015211970074801684,0.05,deterministic,TRUE
+Results,retrospective entries,198,198,0,0,deterministic,TRUE
+Results,registrations per household baseline med,11,11,0,0,deterministic,TRUE
+Results,registrations per household baseline q1,8.25,8.25,0,0,deterministic,TRUE
+Results,registrations per household baseline q3,13.75,13.75,0,0,deterministic,TRUE
+Results,registrations per household nudge med,7,7,0,0,deterministic,TRUE
+Results,registrations per household nudge q1,4.25,4.25,0,0,deterministic,TRUE
+Results,registrations per household nudge q3,10.75,10.75,0,0,deterministic,TRUE
+RQ1,phase beta,0.5897458866963984,0.5897458869152452,2.1884682954720347e-10,1e-4,deterministic,TRUE
+RQ1,phase OR,1.803530056182015,1.803530056576712,3.946971638413288e-10,1e-4,deterministic,TRUE
+RQ1,LR chi-square,15.985335251564948,15.985335251565402,4.547473508864641e-13,0.001,deterministic,TRUE
+RQ1,p value,6.383504654975064e-5,6.383504654973533e-5,1.531435568635775e-17,1e-6,deterministic,TRUE
+RQ1,sigma_u,0.8775067226528306,0.8775067226230654,2.976519031250291e-11,1e-4,deterministic,TRUE
+RQ1,profile CI lower,1.3494037005244985,1.349403700524464,3.4638958368304884e-14,0.001,deterministic,TRUE
+RQ1,profile CI upper,2.417664964379783,2.4176649643798056,2.2648549702353193e-14,0.001,deterministic,TRUE
+RQ1,population-averaged baseline_great,0.29358985988919006,0.293589859834086,5.5104087959279013e-11,1e-5,deterministic,TRUE
+RQ1,population-averaged nudge_great,0.4038891601028902,0.4038891600877248,1.5165424471774713e-11,1e-5,deterministic,TRUE
+RQ1,population-averaged baseline_bad,0.5291626922709137,0.5291626923732525,1.0233880409771245e-10,1e-5,deterministic,TRUE
+RQ1,population-averaged nudge_bad,0.4088272516175979,0.40882725166900674,5.140882164411664e-11,1e-5,deterministic,TRUE
+RQ1,population-averaged diff_great,0.11029930021370016,0.11029930025363882,3.99386634875043e-11,1e-5,deterministic,TRUE
+Table 1,rate ratio great,0.9314092964393771,0.9314083694123596,9.270270174832618e-7,0.001,deterministic,TRUE
+Table 1,rate ratio great lower,0.6561636963495663,0.6561629750510304,7.212985358995283e-7,0.001,deterministic,TRUE
+Table 1,rate ratio great upper,1.3221141040261528,1.3221129255943196,1.178431833226412e-6,0.001,deterministic,TRUE
+Table 1,rate ratio ok,0.7088904571837685,0.7088908587275641,4.015437955473544e-7,0.001,deterministic,TRUE
+Table 1,rate ratio ok lower,0.46505414174995074,0.465054321398338,1.7964838727735355e-7,0.001,deterministic,TRUE
+Table 1,rate ratio ok upper,1.0805745722320848,1.0805753789718446,8.067397598843229e-7,0.001,deterministic,TRUE
+Table 1,rate ratio bad,0.5423531764359705,0.5423531703013117,6.1346587809651965e-9,0.001,deterministic,TRUE
+Table 1,rate ratio bad lower,0.3894015399962306,0.38940151662363653,2.3372594082360365e-8,0.001,deterministic,TRUE
+Table 1,rate ratio bad upper,0.7553821384297407,0.7553821666806239,2.8250883188363218e-8,0.001,deterministic,TRUE
+What changed,late 21-24 baseline,135,135,0,0,deterministic,TRUE
+What changed,late immediate phone baseline,86,86,0,0,deterministic,TRUE
+What changed,late retrospective phone baseline,20,20,0,0,deterministic,TRUE
+What changed,retrospective baseline,102,102,0,0,deterministic,TRUE
+What changed,retrospective bad share baseline,48,48,0,0,deterministic,TRUE
+What changed,immediate bad share baseline,51.1,51.1,0,0,deterministic,TRUE
+What changed,late 21-24 nudge,64,64,0,0,deterministic,TRUE
+What changed,late immediate phone nudge,35,35,0,0,deterministic,TRUE
+What changed,late retrospective phone nudge,22,22,0,0,deterministic,TRUE
+What changed,retrospective nudge,96,96,0,0,deterministic,TRUE
+What changed,retrospective bad share nudge,41.7,41.7,0,0,deterministic,TRUE
+What changed,immediate bad share nudge,39.9,39.9,0,0,deterministic,TRUE
+What changed,households with lower bad share,29,29,0,0,deterministic,TRUE
+What changed,households with higher bad share,9,9,0,0,deterministic,TRUE
+What changed,tipping point (unregistered bad uses),68,68,0,0,deterministic,TRUE
+What changed,registrations drop,134,134,0,0,deterministic,TRUE
+What changed,waits as bad uses OR,1.7083101960719012,1.7083102000482089,3.976307727526773e-9,1e-4,deterministic,TRUE
+What changed,waits as bad uses lower,1.2791342225967741,1.2791342549589513,3.2362177160294436e-8,1e-4,deterministic,TRUE
+What changed,waits as bad uses upper,2.281483580416385,2.281483533315589,4.710079570813264e-8,1e-4,deterministic,TRUE
+Calendar,overlap dates,12,12,0,0,deterministic,TRUE
+Calendar,overlap registrations,514,514,0,0,deterministic,TRUE
+Calendar,Weekday and linear calendar-day adjustment OR,1.0340055442471683,1.03400547445404,6.979312838772955e-8,1e-4,deterministic,TRUE
+Calendar,Weekday and linear calendar-day adjustment lower,0.6308748996462535,0.6308747264638142,1.7318243938913014e-7,1e-4,deterministic,TRUE
+Calendar,Weekday and linear calendar-day adjustment upper,1.6947376827535698,1.694737919196467,2.3644289726121315e-7,1e-4,deterministic,TRUE
+Calendar,"Calendar-overlap dates only, adjusted OR",0.8537529149604343,0.8537546270446063,1.7120841719897584e-6,1e-4,deterministic,TRUE
+Calendar,"Calendar-overlap dates only, adjusted lower",0.49023092282113356,0.4902320332585148,1.1104373812131918e-6,1e-4,deterministic,TRUE
+Calendar,"Calendar-overlap dates only, adjusted upper",1.4868381529440646,1.486840748359878,2.595415813377855e-6,1e-4,deterministic,TRUE
+Trend,Baseline slope per study day OR,1.0168825434821445,1.0168825675706672,2.4088522732057527e-8,1e-4,deterministic,TRUE
+Trend,Baseline slope per study day lower,0.9275305166523778,0.9275302709335274,2.457188504889629e-7,1e-4,deterministic,TRUE
+Trend,Baseline slope per study day upper,1.114842141227639,1.1148424893867632,3.481591241971671e-7,1e-4,deterministic,TRUE
+Trend,Nudge-phase slope per study day OR,1.1388671492205176,1.1388672287391215,7.951860392374499e-8,1e-4,deterministic,TRUE
+Trend,Nudge-phase slope per study day lower,1.014934027900135,1.0149340381428706,1.0242735548615656e-8,1e-4,deterministic,TRUE
+Trend,Nudge-phase slope per study day upper,1.2779336862487083,1.2779338518089465,1.655602381855914e-7,1e-4,deterministic,TRUE
+Trend,Slope difference OR,1.1199593861850135,1.1199594378531592,5.166814576185175e-8,1e-4,deterministic,TRUE
+Trend,Slope difference lower,0.9666372783041257,0.966637139939604,1.3836452172899527e-7,1e-4,deterministic,TRUE
+Trend,Slope difference upper,1.297600511439492,1.297600816905022,3.054655299816744e-7,1e-4,deterministic,TRUE
+Trend,Level change at phase boundary OR,1.095174938363266,1.0951747347842289,2.035790371834878e-7,1e-4,deterministic,TRUE
+Trend,Level change at phase boundary lower,0.6043189896297351,0.6043179688015751,1.020828160003262e-6,1e-4,deterministic,TRUE
+Trend,Level change at phase boundary upper,1.9847268846439172,1.9847294994194116,2.614775494347299e-6,1e-4,deterministic,TRUE
+Robustness,Great versus ok/bad OR,1.746495263373718,1.7464951569481884,1.0642552972228714e-7,1e-4,deterministic,TRUE
+Robustness,Great versus ok/bad lower,1.252095390731816,1.2520950638441373,3.268876787032582e-7,1e-4,deterministic,TRUE
+Robustness,Great versus ok/bad upper,2.4361128773136413,2.436113216418826,3.391051848211646e-7,1e-4,deterministic,TRUE
+Robustness,Great/ok versus bad OR,1.828680238868436,1.8286804557652885,2.1689685247849866e-7,1e-4,deterministic,TRUE
+Robustness,Great/ok versus bad lower,1.3222482963211515,1.3222484289447205,1.3262356901577732e-7,1e-4,deterministic,TRUE
+Robustness,Great/ok versus bad upper,2.529079769156838,2.52908011542644,3.462696018807776e-7,1e-4,deterministic,TRUE
+Robustness,nominal test p (phase),0.8703764509856228,0.8703764509971419,1.1519118991998312e-11,1e-4,deterministic,TRUE
+Robustness,region interaction p,0.6560748519604378,0.6560748519779612,1.7523427153776083e-11,1e-4,deterministic,TRUE
+Robustness,All eligible events (including incomplete) n,882,882,0,0,deterministic,TRUE
+Robustness,All eligible events (including incomplete) OR,1.792984824331671,1.7929848331617562,8.830085107547347e-9,1e-4,deterministic,TRUE
+Robustness,All eligible events (including incomplete) lower,1.3524714855035116,1.3524711475726392,3.379308723960861e-7,1e-4,deterministic,TRUE
+Robustness,All eligible events (including incomplete) upper,2.3769777143115425,2.376978331639736,6.173281934529484e-7,1e-4,deterministic,TRUE
+Robustness,Observed Phase-2 exposure n,802,802,0,0,deterministic,TRUE
+Robustness,Observed Phase-2 exposure OR,1.8942465582221053,1.894247365419227,8.071971215883877e-7,1e-4,deterministic,TRUE
+Robustness,Observed Phase-2 exposure lower,1.4105706763047565,1.410571081061263,4.0475650653348794e-7,1e-4,deterministic,TRUE
+Robustness,Observed Phase-2 exposure upper,2.5437718815594184,2.543773319596251,1.4380368327238102e-6,1e-4,deterministic,TRUE
+Robustness,High-load appliances only n,272,272,0,0,deterministic,TRUE
+Robustness,High-load appliances only OR,2.490964633765734,2.490964634703272,9.3753804719654e-10,1e-4,deterministic,TRUE
+Robustness,High-load appliances only lower,1.4426754202270606,1.4426755395434394,1.1931637877715673e-7,1e-4,deterministic,TRUE
+Robustness,High-load appliances only upper,4.3009707656175875,4.300970413143665,3.5247392293769053e-7,1e-4,deterministic,TRUE
+Robustness,Immediate registrations only n,604,604,0,0,deterministic,TRUE
+Robustness,Immediate registrations only OR,1.8773341506968544,1.8773341395424048,1.115444958621481e-8,1e-4,deterministic,TRUE
+Robustness,Immediate registrations only lower,1.3332980754629948,1.333298578833232,5.033702372703175e-7,1e-4,deterministic,TRUE
+Robustness,Immediate registrations only upper,2.6433575343974143,2.6433565050190073,1.029378406958159e-6,1e-4,deterministic,TRUE
+Robustness,Exclude four phase-crossing backdates n,798,798,0,0,deterministic,TRUE
+Robustness,Exclude four phase-crossing backdates OR,1.7932013975108607,1.793199661422142,1.7360887187845009e-6,1e-4,deterministic,TRUE
+Robustness,Exclude four phase-crossing backdates lower,1.3391463704360371,1.339145494053511,8.763825261048908e-7,1e-4,deterministic,TRUE
+Robustness,Exclude four phase-crossing backdates upper,2.401209698225809,2.401206620194171,3.078031638015233e-6,1e-4,deterministic,TRUE
+Robustness,Backdates assigned by registration time n,802,802,0,0,deterministic,TRUE
+Robustness,Backdates assigned by registration time OR,1.7760893158057653,1.7760885278212362,7.87984529182495e-7,1e-4,deterministic,TRUE
+Robustness,Backdates assigned by registration time lower,1.3276004461670443,1.3275996641315035,7.82035540769499e-7,1e-4,deterministic,TRUE
+Robustness,Backdates assigned by registration time upper,2.3760863193642523,2.376085610658713,7.087055391430397e-7,1e-4,deterministic,TRUE
+Robustness,Retain duplicate-flagged events n,835,835,0,0,deterministic,TRUE
+Robustness,Retain duplicate-flagged events OR,1.7072466004754259,1.707242629970505,3.970504920847162e-6,1e-4,deterministic,TRUE
+Robustness,Retain duplicate-flagged events lower,1.281559898972719,1.2815571361476708,2.7628250482969463e-6,1e-4,deterministic,TRUE
+Robustness,Retain duplicate-flagged events upper,2.2743306474955047,2.2743249718464016,5.675649103142888e-6,1e-4,deterministic,TRUE
+Robustness,"All eligible events, full opportunity only OR",1.8031880005257597,1.803181288899503,6.7116262567612495e-6,1e-4,deterministic,TRUE
+Robustness,Paired contributors including incomplete OR,1.7863965762160858,1.786396623194796,4.6978710255274336e-8,1e-4,deterministic,TRUE
+Robustness,leave-one-out min OR,1.721998070238852,1.7219977871679857,2.830708663026371e-7,1e-4,deterministic,TRUE
+Robustness,leave-one-out max OR,1.9689539402935357,1.9689539482541056,7.960569980980381e-9,1e-4,deterministic,TRUE
+Robustness,incl. overwritten OR,1.7742777487497832,1.7742777806704184,3.1920635246152074e-8,1e-4,deterministic,TRUE
+Robustness,incl. overwritten lower,1.368648207694078,1.368647650271929,5.574221491055908e-7,1e-4,deterministic,TRUE
+Robustness,incl. overwritten upper,2.3001246865419906,2.300125706097749,1.0195557584857795e-6,1e-4,deterministic,TRUE
+RQ2,Main: all eligible recorded bad-window decisions households,35,35,0,0,deterministic,TRUE
+RQ2,Main: all eligible recorded bad-window decisions decisions,106,106,0,0,deterministic,TRUE
+RQ2,Main: all eligible recorded bad-window decisions waits,9,9,0,0,deterministic,TRUE
+RQ2,Main: all eligible recorded bad-window decisions proportion,0.08490566037735849,0.08490566037735849,0,1e-10,deterministic,TRUE
+RQ2,Main: all eligible recorded bad-window decisions lower,0.031578947368421054,0.03174185463659148,1.6290726817042717e-4,0.01,bootstrap,TRUE
+RQ2,Main: all eligible recorded bad-window decisions upper,0.15254237288135594,0.15463917525773196,0.0020968023763760224,0.01,bootstrap,TRUE
+RQ2,Including households with rewritten records (DEC-030) households,51,51,0,0,deterministic,TRUE
+RQ2,Including households with rewritten records (DEC-030) decisions,139,139,0,0,deterministic,TRUE
+RQ2,Including households with rewritten records (DEC-030) waits,20,20,0,0,deterministic,TRUE
+RQ2,Including households with rewritten records (DEC-030) proportion,0.14388489208633093,0.14388489208633093,0,1e-10,deterministic,TRUE
+RQ2,Including households with rewritten records (DEC-030) lower,0.07913195759182128,0.07801418439716312,0.0011177731946581532,0.01,bootstrap,TRUE
+RQ2,Including households with rewritten records (DEC-030) upper,0.22137404580152673,0.22060631629701036,7.677295045163679e-4,0.01,bootstrap,TRUE
+RQ2,dialogs phone_charging,88,88,0,0,deterministic,TRUE
+RQ2,waits phone_charging,8,8,0,0,deterministic,TRUE
+RQ2,dialogs washing_machine,13,13,0,0,deterministic,TRUE
+RQ2,waits washing_machine,1,1,0,0,deterministic,TRUE
+RQ2,dialogs dishwasher,5,5,0,0,deterministic,TRUE
+RQ2,waits dishwasher,0,0,0,0,deterministic,TRUE
+RQ2,suggested wait median,12,12,0,0,deterministic,TRUE
+RQ2,suggested wait Q1,10,10,0,0,deterministic,TRUE
+RQ2,suggested wait Q3,13,13,0,0,deterministic,TRUE
+RQ1,household-bootstrap OR lower,1.2874335376126533,1.2760736235824377,0.011359914030215634,0.05,bootstrap,TRUE
+RQ1,household-bootstrap OR upper,2.5302998999117206,2.6080117514252468,0.07771185151352622,0.1,bootstrap,TRUE
+RQ1,great-share difference bootstrap lower,0.04516817926093704,0.04707576028610833,0.001907581025171294,0.01,bootstrap,TRUE
+RQ1,great-share difference bootstrap upper,0.16983586709584167,0.1752705396918941,0.005434672596052431,0.01,bootstrap,TRUE
