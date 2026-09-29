@@ -7,8 +7,8 @@ These tables contain the analysis events and bad-window decisions of the househo
 - **Households** carry random codes (`H01`–`H79`), assigned in random order. The mapping to the app's login IDs is kept by the authors and is not published.
 - **Events and decisions** carry sequential codes (`E0001`…, `D0001`…) with no link to database identifiers.
 - **Time:**
-  - No timestamps are published.
-  - Each record has the study day, the local hour (integer), a local calendar-day index and the local weekday.
+  - No exact timestamps are published.
+  - Each record has the study day and, except for households with rewritten records, the local hour (integer), a local calendar-day index and the local weekday.
   - These are the time variables the models use.
 - **Not published:**
   - login IDs and passcodes,
@@ -46,7 +46,7 @@ These tables contain the analysis events and bad-window decisions of the househo
 | `study_day` | Day since first login, 1–14 (by time of use) |
 | `local_hour` | Local hour of use on the device clock, 0–23 (empty for households with rewritten records) |
 | `calendar_day` | Local calendar date as days since 1 September 2026 (empty for households with rewritten records) |
-| `weekday_local` | Local weekday, 1 = Monday … 7 = Sunday |
+| `weekday_local` | Local weekday, 1 = Monday … 7 = Sunday (empty for households with rewritten records) |
 | `full_14_day_opportunity`, `paired_contributor_locked` | Household flags, as in `households.csv` |
 
 ### `event_set_membership.csv` (which events belong to which analysis set, and with which phase)
